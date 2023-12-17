@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Amtrak Distances</h1>
+
+    <p>For my <a href="https://blog.quentin.ms/posts/coast-starlight/">Coast Starlight</a> blog post, I needed the distance by
+    train between Emeryville and Seattle and for some reason search engines cannot find anything useful (and LLMs
+    just hallucinate). </p>
+
+    <p>It's not on Amtrak's website either. They used to have them as part of the timetables, but they're not on the
+        newer ones.</p>
+
+    <p>I had to resort to finding what I was looking for in <a href="https://juckins.net/amtrak_timetables/archive/home.php">this unofficial archive of Amtrak
+        timetables</a>.</p>
+
+    <p>Anyway, I have transcribed the distances in the tables below (will add more when I have time).</p>
+
+    {{range .}}
+    <div>
+        <h2>{{.Name}}</h2>
+        <p><a href="{{.Source}}">[Source]</a></p>
+        <div>
+            <label for="select-from-{{.ID}}">From:</label>
+            <select name="from-{{.ID}}" id="select-from-{{.ID}}" onchange="getDistance({{.ID}}, this)">
+                <option value="">--Please choose an origin--</option>
+                {{ range .Distances}}
+                <option value="{{.Distance}}">{{.Station}}</option>
+                {{ end}}
+            </select>
+            <label for="select-to-{{.ID}}">To:</label>
+            <select name="to-{{.ID}}" id="select-to-{{.ID}}" onchange="getDistance({{.ID}}, this)">
+                <option value="">--Please choose a destination--</option>
+                {{ range .Distances}}
+                <option value="{{.Distance}}">{{.Station}}</option>
+                {{ end}}
+            </select>
+            <div id="dist-{{.ID}}"></div>
+        <div>
+
+        <table>
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Distance (miles)</th>
+            </tr>
+        </thead>
+        <tbody>
+        {{ range .Distances}}
+            <tr>
+                <td>{{.Station}}</td>
+                <td>{{.Distance}}</td>
+            </tr>
+        {{ end}}
+        </tbody>
+        </table>
+    <dive>
+    {{ end }}
+
+</body>
+
+</html>

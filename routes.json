@@ -1,0 +1,129 @@
+[
+    {
+        "id": "coast-starlight",
+        "name": "Coast Starlight",
+        "source": "https://juckins.net/amtrak_timetables/archive/timetables_Coast_Starlight_20201012.pdf",
+        "distances": [
+            {
+                "station": "Seattle, WA",
+                "distance": 0
+            },
+            {
+                "station": "Tacoma, WA",
+                "distance": 39
+            },
+            {
+                "station": "Olympia-Lacey, WA",
+                "distance": 75
+            },
+            {
+                "station": "Centralia, WA",
+                "distance": 94
+            },
+            {
+                "station": "Kelso-Longview, WA",
+                "distance": 137
+            },
+            {
+                "station": "Vancouver, WA",
+                "distance": 177
+            },
+            {
+                "station": "Portland, OR",
+                "distance": 187
+            },
+            {
+                "station": "Salem, OR",
+                "distance": 239
+            },
+            {
+                "station": "Albany, OR",
+                "distance": 267
+            },
+            {
+                "station": "Eugene-Springfield, OR",
+                "distance": 310
+            },
+            {
+                "station": "Chemult, OR",
+                "distance": 432
+            },
+            {
+                "station": "Klamath Falls, OR",
+                "distance": 505
+            },
+            {
+                "station": "Dunsmuir, CA",
+                "distance": 610
+            },
+            {
+                "station": "Redding, CA",
+                "distance": 665
+            },
+            {
+                "station": "Chico, CA",
+                "distance": 739
+            },
+            {
+                "station": "Sacramento, CA",
+                "distance": 824
+            },
+            {
+                "station": "Davis, CA",
+                "distance": 837
+            },
+            {
+                "station": "Martinez, CA",
+                "distance": 881
+            },
+            {
+                "station": "Emeryville, CA",
+                "distance": 908
+            },
+            {
+                "station": "Oakland, CA",
+                "distance": 913
+            },
+            {
+                "station": "San Jose, CA",
+                "distance": 954
+            },
+            {
+                "station": "Salinas, CA",
+                "distance": 1021
+            },
+            {
+                "station": "Paso Robles, CA",
+                "distance": 1119
+            },
+            {
+                "station": "San Luis Obispo, CA",
+                "distance": 1157
+            },
+            {
+                "station": "Santa Barbara, CA",
+                "distance": 1274
+            },
+            {
+                "station": "Oxnard, CA",
+                "distance": 1310
+            },
+            {
+                "station": "Simi Valley, CA",
+                "distance": 1341
+            },
+            {
+                "station": "Van Nuys, CA",
+                "distance": 1358
+            },
+            {
+                "station": "Burbank Airport, CA",
+                "distance": 1363
+            },
+            {
+                "station": "Los Angeles, CA",
+                "distance": 1377
+            }
+        ]
+    }
+]
