@@ -1,11 +1,13 @@
+<!DOCTYPE html>
 <html>
 
 <head>
+    <title>Amtrak Distance</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="script.js"></script>
 </head>
 
 <body>
+    <script src="script.js"></script>
     <h1>Amtrak Distances</h1>
 
     <p>For my <a href="https://blog.quentin.ms/posts/coast-starlight/">Coast Starlight</a> blog post, I needed the distance by
@@ -22,7 +24,7 @@
 
     <p>Free free to contribute on the <a href="https://github.com/quentinms/amtrak-distances">GitHub repo</a>.</p>
 
-    
+
     <div>
         <h2>Coast Starlight</h2>
         <p><a href="https://juckins.net/amtrak_timetables/archive/timetables_Coast_Starlight_20201012.pdf">[Source]</a></p>
@@ -30,135 +32,135 @@
             <label for="select-from-coast-starlight">From:</label>
             <select name="from-coast-starlight" id="select-from-coast-starlight" onchange="getDistance(&#34;coast-starlight&#34;, this)">
                 <option value="">--Please choose an origin--</option>
-                
+
                 <option value="0">Seattle, WA</option>
-                
+
                 <option value="39">Tacoma, WA</option>
-                
+
                 <option value="75">Olympia-Lacey, WA</option>
-                
+
                 <option value="94">Centralia, WA</option>
-                
+
                 <option value="137">Kelso-Longview, WA</option>
-                
+
                 <option value="177">Vancouver, WA</option>
-                
+
                 <option value="187">Portland, OR</option>
-                
+
                 <option value="239">Salem, OR</option>
-                
+
                 <option value="267">Albany, OR</option>
-                
+
                 <option value="310">Eugene-Springfield, OR</option>
-                
+
                 <option value="432">Chemult, OR</option>
-                
+
                 <option value="505">Klamath Falls, OR</option>
-                
+
                 <option value="610">Dunsmuir, CA</option>
-                
+
                 <option value="665">Redding, CA</option>
-                
+
                 <option value="739">Chico, CA</option>
-                
+
                 <option value="824">Sacramento, CA</option>
-                
+
                 <option value="837">Davis, CA</option>
-                
+
                 <option value="881">Martinez, CA</option>
-                
+
                 <option value="908">Emeryville, CA</option>
-                
+
                 <option value="913">Oakland, CA</option>
-                
+
                 <option value="954">San Jose, CA</option>
-                
+
                 <option value="1021">Salinas, CA</option>
-                
+
                 <option value="1119">Paso Robles, CA</option>
-                
+
                 <option value="1157">San Luis Obispo, CA</option>
-                
+
                 <option value="1274">Santa Barbara, CA</option>
-                
+
                 <option value="1310">Oxnard, CA</option>
-                
+
                 <option value="1341">Simi Valley, CA</option>
-                
+
                 <option value="1358">Van Nuys, CA</option>
-                
+
                 <option value="1363">Burbank Airport, CA</option>
-                
+
                 <option value="1377">Los Angeles, CA</option>
-                
+
             </select>
             <label for="select-to-coast-starlight">To:</label>
             <select name="to-coast-starlight" id="select-to-coast-starlight" onchange="getDistance(&#34;coast-starlight&#34;, this)">
                 <option value="">--Please choose a destination--</option>
-                
+
                 <option value="0">Seattle, WA</option>
-                
+
                 <option value="39">Tacoma, WA</option>
-                
+
                 <option value="75">Olympia-Lacey, WA</option>
-                
+
                 <option value="94">Centralia, WA</option>
-                
+
                 <option value="137">Kelso-Longview, WA</option>
-                
+
                 <option value="177">Vancouver, WA</option>
-                
+
                 <option value="187">Portland, OR</option>
-                
+
                 <option value="239">Salem, OR</option>
-                
+
                 <option value="267">Albany, OR</option>
-                
+
                 <option value="310">Eugene-Springfield, OR</option>
-                
+
                 <option value="432">Chemult, OR</option>
-                
+
                 <option value="505">Klamath Falls, OR</option>
-                
+
                 <option value="610">Dunsmuir, CA</option>
-                
+
                 <option value="665">Redding, CA</option>
-                
+
                 <option value="739">Chico, CA</option>
-                
+
                 <option value="824">Sacramento, CA</option>
-                
+
                 <option value="837">Davis, CA</option>
-                
+
                 <option value="881">Martinez, CA</option>
-                
+
                 <option value="908">Emeryville, CA</option>
-                
+
                 <option value="913">Oakland, CA</option>
-                
+
                 <option value="954">San Jose, CA</option>
-                
+
                 <option value="1021">Salinas, CA</option>
-                
+
                 <option value="1119">Paso Robles, CA</option>
-                
+
                 <option value="1157">San Luis Obispo, CA</option>
-                
+
                 <option value="1274">Santa Barbara, CA</option>
-                
+
                 <option value="1310">Oxnard, CA</option>
-                
+
                 <option value="1341">Simi Valley, CA</option>
-                
+
                 <option value="1358">Van Nuys, CA</option>
-                
+
                 <option value="1363">Burbank Airport, CA</option>
-                
+
                 <option value="1377">Los Angeles, CA</option>
-                
+
             </select>
             <div id="dist-coast-starlight"></div>
-        <div>
+        </div>
 
         <table>
         <thead>
@@ -168,161 +170,161 @@
             </tr>
         </thead>
         <tbody>
-        
+
             <tr>
                 <td>Seattle, WA</td>
                 <td>0</td>
             </tr>
-        
+
             <tr>
                 <td>Tacoma, WA</td>
                 <td>39</td>
             </tr>
-        
+
             <tr>
                 <td>Olympia-Lacey, WA</td>
                 <td>75</td>
             </tr>
-        
+
             <tr>
                 <td>Centralia, WA</td>
                 <td>94</td>
             </tr>
-        
+
             <tr>
                 <td>Kelso-Longview, WA</td>
                 <td>137</td>
             </tr>
-        
+
             <tr>
                 <td>Vancouver, WA</td>
                 <td>177</td>
             </tr>
-        
+
             <tr>
                 <td>Portland, OR</td>
                 <td>187</td>
             </tr>
-        
+
             <tr>
                 <td>Salem, OR</td>
                 <td>239</td>
             </tr>
-        
+
             <tr>
                 <td>Albany, OR</td>
                 <td>267</td>
             </tr>
-        
+
             <tr>
                 <td>Eugene-Springfield, OR</td>
                 <td>310</td>
             </tr>
-        
+
             <tr>
                 <td>Chemult, OR</td>
                 <td>432</td>
             </tr>
-        
+
             <tr>
                 <td>Klamath Falls, OR</td>
                 <td>505</td>
             </tr>
-        
+
             <tr>
                 <td>Dunsmuir, CA</td>
                 <td>610</td>
             </tr>
-        
+
             <tr>
                 <td>Redding, CA</td>
                 <td>665</td>
             </tr>
-        
+
             <tr>
                 <td>Chico, CA</td>
                 <td>739</td>
             </tr>
-        
+
             <tr>
                 <td>Sacramento, CA</td>
                 <td>824</td>
             </tr>
-        
+
             <tr>
                 <td>Davis, CA</td>
                 <td>837</td>
             </tr>
-        
+
             <tr>
                 <td>Martinez, CA</td>
                 <td>881</td>
             </tr>
-        
+
             <tr>
                 <td>Emeryville, CA</td>
                 <td>908</td>
             </tr>
-        
+
             <tr>
                 <td>Oakland, CA</td>
                 <td>913</td>
             </tr>
-        
+
             <tr>
                 <td>San Jose, CA</td>
                 <td>954</td>
             </tr>
-        
+
             <tr>
                 <td>Salinas, CA</td>
                 <td>1021</td>
             </tr>
-        
+
             <tr>
                 <td>Paso Robles, CA</td>
                 <td>1119</td>
             </tr>
-        
+
             <tr>
                 <td>San Luis Obispo, CA</td>
                 <td>1157</td>
             </tr>
-        
+
             <tr>
                 <td>Santa Barbara, CA</td>
                 <td>1274</td>
             </tr>
-        
+
             <tr>
                 <td>Oxnard, CA</td>
                 <td>1310</td>
             </tr>
-        
+
             <tr>
                 <td>Simi Valley, CA</td>
                 <td>1341</td>
             </tr>
-        
+
             <tr>
                 <td>Van Nuys, CA</td>
                 <td>1358</td>
             </tr>
-        
+
             <tr>
                 <td>Burbank Airport, CA</td>
                 <td>1363</td>
             </tr>
-        
+
             <tr>
                 <td>Los Angeles, CA</td>
                 <td>1377</td>
             </tr>
-        
+
         </tbody>
         </table>
-    <dive>
-    
+    </div>
+
 
 </body>
 
