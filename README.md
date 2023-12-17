@@ -8,6 +8,8 @@ It's not on Amtrak's website either. They used to have them as part of the timet
 
 I had to resort to finding what I was looking for in [this unofficial archive of Amtrak timetables](https://juckins.net/amtrak_timetables/archive/home.php).
 
+Results are visible [here](https://quentin.ms/amtrak-distances/).
+
 
 ## Development
 
