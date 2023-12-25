@@ -16,5 +16,5 @@ Results are visible [here](https://quentin.ms/amtrak-distances/).
 It uses Go templates to generate a single HTML page based on `routes.json`.
 
 ```sh
-go run main.go | tee index.html
+go run main.go | tee output/index.html
 ```
