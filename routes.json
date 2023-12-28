@@ -125,5 +125,176 @@
                 "distance": 1377
             }
         ]
+    },
+    {
+        "id": "empire-builder",
+        "name": "Empire Builder",
+        "source": "https://juckins.net/amtrak_timetables/archive/timetables_Empire_Builder_20201019.pdf",
+        "distances": [
+            {
+                "station": "Chicago, IL",
+                "distance": 0
+            },
+            {
+                "station": "Glenview, IL",
+                "distance": 17
+            },
+            {
+                "station": "Milwaukee, WI",
+                "distance": 85
+            },
+            {
+                "station": "Columbus, WI",
+                "distance": 150
+            },
+            {
+                "station": "Portage, WI",
+                "distance": 178
+            },
+            {
+                "station": "Wisconsin Dells, WI",
+                "distance": 195
+            },
+            {
+                "station": "Tomah, WI",
+                "distance": 240
+            },
+            {
+                "station": "La Crosse, WI",
+                "distance": 281
+            },
+            {
+                "station": "Winona, MN",
+                "distance": 308
+            },
+            {
+                "station": "Red Wing, MN",
+                "distance": 371
+            },
+            {
+                "station": "St. Paul - Minneapolis, MN",
+                "distance": 410
+            },
+            {
+                "station": "St. Cloud, MN",
+                "distance": 486
+            },
+            {
+                "station": "Staples, MN",
+                "distance": 552
+            },
+            {
+                "station": "Detroit Lakes, MN",
+                "distance": 614
+            },
+            {
+                "station": "Fargo, ND",
+                "distance": 662
+            },
+            {
+                "station": "Grand Forks, ND",
+                "distance": 737
+            },
+            {
+                "station": "Devils Lake, ND",
+                "distance": 822
+            },
+            {
+                "station": "Rugby, ND",
+                "distance": 879
+            },
+            {
+                "station": "Minot, ND",
+                "distance": 940
+            },
+            {
+                "station": "Stanley, ND",
+                "distance": 994
+            },
+            {
+                "station": "Williston, ND",
+                "distance": 1061
+            },
+            {
+                "station": "Wolf Point, MT",
+                "distance": 1168
+            },
+            {
+                "station": "Glasgow, MT",
+                "distance": 1217
+            },
+            {
+                "station": "Malta, MT",
+                "distance": 1283
+            },
+            {
+                "station": "Havre, MT",
+                "distance": 1370
+            },
+            {
+                "station": "Shelby, MT",
+                "distance": 1475
+            },
+            {
+                "station": "Cut Bank, MT",
+                "distance": 1499
+            },
+            {
+                "station": "Browning, MT",
+                "distance": 1532
+            },
+            {
+                "station": "East Glacier Park, MT",
+                "distance": 1547
+            },
+            {
+                "station": "Essex, MT",
+                "distance": 1576
+            },
+            {
+                "station": "West Glacier, MT",
+                "distance": 1603
+            },
+            {
+                "station": "Whitefish, MT",
+                "distance": 1626
+            },
+            {
+                "station": "Libby, MT",
+                "distance": 1728
+            },
+            {
+                "station": "Sandpoint, ID",
+                "distance": 1813
+            },
+            {
+                "station": "Spokane, WA",
+                "distance": 1879
+            },
+            {
+                "station": "Ephrata, WA",
+                "distance": 1998
+            },
+            {
+                "station": "Wenatchee, WA",
+                "distance": 2050
+            },
+            {
+                "station": "Leavenworth, WA",
+                "distance": 2072
+            },
+            {
+                "station": "Everett, WA",
+                "distance": 2171
+            },
+            {
+                "station": "Edmonds, WA",
+                "distance": 2188
+            },
+            {
+                "station": "Seattle, WA",
+                "distance": 2205
+            }
+        ]
     }
 ]
